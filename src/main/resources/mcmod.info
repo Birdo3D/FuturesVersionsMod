@@ -1,0 +1,16 @@
+[
+{
+  "modid": "futuresversionsmod",
+  "name": "FuturesVersionsMod",
+  "description": "Minecraft Updates 1.8 to 1.16 in 1.7.10",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Birdo770"],
+  "credits": "RJRP, LavaPower and MinecraftForgeFrance",
+  "logoFile": "/assets/futuresversionsmod/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

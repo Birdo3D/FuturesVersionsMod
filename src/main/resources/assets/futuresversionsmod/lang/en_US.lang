@@ -1,0 +1,6 @@
+itemGroup.futuresversionsmodcreativetab=Minecraft 1.8+
+tile.grass_path.name= Grass Path
+item.ender_crystal.name= Ender Crystal
+autoJump.notactive=AutoJump disabled
+autoJump.active=AutoJump enabled
+futuresversionsmod.autoJump=Enable/Disable AutoJump

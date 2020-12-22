@@ -1,0 +1,6 @@
+itemGroup.futuresversionsmodcreativetab=Minecraft 1.8+
+tile.grass_path.name= Chemin d'herbe
+item.ender_crystal.name= Crystal de l'end
+autoJump.notactive=Saut automatique désactivé !
+autoJump.active=Saut automatique activé !
+futuresversionsmod.autoJump=Activer/Désactiver le saut automatique
