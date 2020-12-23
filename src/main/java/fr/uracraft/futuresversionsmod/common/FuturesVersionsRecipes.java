@@ -13,5 +13,11 @@ public class FuturesVersionsRecipes {
 
         //Ender Crystal
         GameRegistry.addRecipe(new ItemStack(FuturesVersionsItems.ender_crystal), new Object[]{"GGG", "GEG", "GTG", 'G', Blocks.glass, 'E', Items.ender_eye, 'T', Items.ghast_tear});
+        //Polished Andesite
+        GameRegistry.addRecipe(new ItemStack(FuturesVersionsBlocks.polished_andesite), new Object[]{"AA ", "AA ", "   ", 'A', FuturesVersionsBlocks.andesite});
+        //Polished Diorite
+        GameRegistry.addRecipe(new ItemStack(FuturesVersionsBlocks.polished_diorite), new Object[]{"DD ", "DD ", "   ", 'D', FuturesVersionsBlocks.diorite});
+        //Polished Granite
+        GameRegistry.addRecipe(new ItemStack(FuturesVersionsBlocks.polished_granite), new Object[]{"GG ", "GG ", "   ", 'G', FuturesVersionsBlocks.granite});
     }
 }

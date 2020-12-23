@@ -26,10 +26,10 @@ public class GrassPath extends Block {
         super(Material.grass);
         this.setHardness(0.6F);
         this.setLightOpacity(255);
-        this.setHarvestLevel("shovel", 0);
+        this.setHarvestLevel("shovel", 2);
         this.useNeighborBrightness = true;
         this.setStepSound(soundTypeGrass);
-        this.setBlockTextureName(FuturesVersionsMod.MODID + ":grass_path");
+        this.setBlockTextureName("grass_path");
         this.setBlockName("grass_path");
         this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.9375F, 1.0F);
         this.setCreativeTab(FuturesVersionsMod.futuresversionsmodcreativetab);

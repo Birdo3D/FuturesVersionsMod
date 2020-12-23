@@ -13,7 +13,7 @@ public class EnderCrystal extends Item {
 
     public EnderCrystal() {
         this.setUnlocalizedName("ender_crystal");
-        this.setTextureName(FuturesVersionsMod.MODID + ":ender_crystal");
+        this.setTextureName("ender_crystal");
         this.setCreativeTab(FuturesVersionsMod.futuresversionsmodcreativetab);
     }
 

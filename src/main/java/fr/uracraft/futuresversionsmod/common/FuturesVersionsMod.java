@@ -10,6 +10,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import fr.uracraft.futuresversionsmod.events.FuturesVersionsClientEvents;
 import fr.uracraft.futuresversionsmod.events.FuturesVersionsEvents;
@@ -42,6 +43,8 @@ public class FuturesVersionsMod {
         fvmpackethandler = NetworkRegistry.INSTANCE.newSimpleChannel("AutoJump");
         fvmpackethandler.registerMessage(AutoJumpPacket.Handler.class, AutoJumpPacket.class, 0, Side.SERVER);
         fvmpackethandler.registerMessage(AutoJumpPacket.Handler.class, AutoJumpPacket.class, 1, Side.CLIENT);
+
+        GameRegistry.registerWorldGenerator(new FuturesVersionsWorldGenerator(),2);
     }
 
     @EventHandler
